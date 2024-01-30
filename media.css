@@ -1,0 +1,25 @@
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 767px) {
+    .contentmain .container .show .col .over{
+        z-index: 0;
+        background-color: white;
+        opacity: .7;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top:542px;
+        bottom: 0;
+        transition: all .5s;
+        left:0;
+        right: 0;
+        
+      }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    
+ }
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) { }
